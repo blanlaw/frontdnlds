@@ -1,0 +1,16 @@
+<div class="container">
+  <h1>Blanla descargas</h1>
+  <div class="input-container">
+    <input
+      type="text"
+      [(ngModel)]="videoUrl"
+      placeholder="Solo inserta un enlace"
+    />
+    <button mat-fab extended (click)="downloadVideo()">Descargar</button>
+
+    <button mat-fab extended>
+      <mat-icon>home</mat-icon>
+      Home
+    </button>
+  </div>
+</div>
